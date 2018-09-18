@@ -8,6 +8,33 @@
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
 
+.profile img {
+    vertical-align: bottom;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+/* 
+.profile {
+	background: #693dcc;
+	color: #fff !important;
+} */
+/* <div class="hovertest" style=" */
+.hovertest {
+
+ width:351.9px;
+ background-color: rgba(128,128,128,0);
+ height:234.67px;
+ -webkit-transition: background-color 1s;
+ transition: background-color 2s;
+ position: absolute;
+ 
+}
+
+.hovertest:hover {
+	background-color: rgba(128,128,128,1)
+
+}
+
 /* Reset */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -2500,10 +2527,6 @@
 		.image.round {
 			border-radius: 100%;
 		}
-
-			.image.round img {
-				border-radius: 100%;
-			}
 
 		.image.main {
 			display: block;
