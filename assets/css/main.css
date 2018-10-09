@@ -23,7 +23,7 @@
 
  width:351.9px;
  background-color: rgba(128,128,128,0);
- height:234.67px;
+ height:382.70px;
  -webkit-transition: background-color 1s;
  transition: background-color 2s;
  position: absolute;
@@ -31,7 +31,7 @@
 }
 
 .hovertest:hover {
-	background-color: rgba(128,128,128,1)
+	background-color: rgba(128,128,128,0.5)
 
 }
 
