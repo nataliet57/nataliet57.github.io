@@ -2513,6 +2513,9 @@
 			margin: 0 0 1em 1.5em;
 			top: 0.25em;
 		}
+		.image.circle {
+			border-radius: 50%;
+		}
 
 		.image.fit {
 			display: block;
