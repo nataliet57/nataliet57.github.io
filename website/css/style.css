@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+
+}
+span {
+  font-size: 30px;
+}
+
+.nav {
+    overflow: hidden;
+    padding-right: 150px;
+    padding-left: 150px;
+}
+
+  /* Style the links inside the navigation bar */
+.nav a {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 24px 32px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+
+  /* Change the color of links on hover */
+.nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+  /* Add a color to the active/current link */
+.nav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+.nav img{
+    border-radius: 50%;
+    max-width: 5em; 
+}
+
+#header {
+  background-color: #c3d7f7;
+  overflow: hidden;
+  cursor: default;
+	height: 75em;
+	left: 0;
+	
+}
+#header > .title {
+  display: inline-block;
+  height: inherit;
+  padding-left: 50px;
+  padding-top: 44px;
+  line-height: inherit;
+  position: absolute;
+  color: #6aa1f7;
+}
+#header > .header2 {
+  display: inline-block;
+  height: inherit;
+  padding-left: 50px;
+  padding-top: 100px;
+  max-width: 30em;
+  line-height: 26pt;
+  position: absolute;
+  color: #152742;
+}
+
+#header > .profile-pic{
+  text-align: right;
+  padding-top: 100px;
+  padding-right: 100px;
+
+}
+
+.profile-pic img{
+  border-radius: 50%;
+  max-width: 25em;
+}
+
+a.button {
+  background-color: #7189b0;
+  display: inline-block;
+  width: 200px;
+  height: 60px;
+  line-height: 60px;
+  vertical-align: text-middle;
+  text-align: center;
+  color: #ebe6eb;
+  font-weight: normal;
+  font-style: normal;
+}
+a.button:hover{
+    background: #263347;
+}
+
+
+
+
+
