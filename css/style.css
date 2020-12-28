@@ -40,15 +40,15 @@ span {
     max-width: 5em; 
 }
 
-#header {
+#about {
   background-color: #c3d7f7;
   overflow: hidden;
   cursor: default;
-	height: 75em;
+	height: 40em;
 	left: 0;
 	
 }
-#header > .title {
+#about > .title {
   display: inline-block;
   height: inherit;
   padding-left: 50px;
@@ -57,7 +57,7 @@ span {
   position: absolute;
   color: #6aa1f7;
 }
-#header > .header2 {
+#about > .header2 {
   display: inline-block;
   height: inherit;
   padding-left: 50px;
@@ -68,7 +68,7 @@ span {
   color: #152742;
 }
 
-#header > .profile-pic{
+#about > .profile-pic{
   text-align: right;
   padding-top: 100px;
   padding-right: 100px;
