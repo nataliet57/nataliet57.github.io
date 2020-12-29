@@ -2,22 +2,29 @@
 <html>
   <head>
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
     <title>Natalie Tam</title>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
 
   <body>
     <!-- Navbar -->
     <div class="nav"> 
-        <img src="images/logo.png" alt="Natalie Tam Logo" />
-      <a href="#contact" class="w3-bar-item w3-button"> contact </a>
-      <a href="#resume" class="w3-bar-item w3-button">resume </a>
-      <a href="#work" class="w3-bar-item w3-button"> work </a>
-      <a href="#about" class="w3-bar-item w3-button">about</a>
-
+          <img src="images/logo.png" alt="Natalie Tam Logo" />
+          <div class="col-md-10"><span class="float-right">
+            <a href="#contact" class="w3-bar-item w3-button" > contact </a>
+            <a href="#projects" class="w3-bar-item w3-button">projects </a>
+            <a href="#work" class="w3-bar-item w3-button"> work </a>
+            <a href="#about" class="w3-bar-item w3-button">about</a>
+          </span>
+          </div>
     </div>
+    
 
       <!-- about -->
       <div class="#about">
@@ -30,7 +37,7 @@
               passionate about planning, developing, and delivering software solutions.  
               I enjoy learning new things, music, playing sports, and meeting new people. 
             I'd love to get in touch with you!  </p>
-            <a href="natalie-tam-resume.pdf" class="button">View my Resume</a>
+            <a href="natalie-tam-resume.pdf" button type="button" class="btn btn-primary">View my Resume</a>
           </div>
           <div class="profile-pic"> <img src="images/profile.jpg" alt="Profile Picture" /> </div>
         </header>
@@ -40,7 +47,38 @@
       
   <!-- Banner -->
   <div class="#work"> 
-    <div class="#works"><h1> Hey, I'm Natalie</h1> </div>
+    <header id="work" class="alt">
+      <div class="title"><h1> work experience </h1> </div>
+      <div class="subtitle"><p> Seeking Fall 2021 Internships <p> </div>
+
+      <div class="box center"> 
+        <div class = "jobTitle"> 
+          <p> <b> Freckle,</b> <i> Full Stack Engineer </i> </p>
+        </div>
+        <ul>
+          <li> hello </li>
+        </ul>
+      </div>
+
+      <div class="padding"> </div>
+
+      <div class="box center"> 
+        <div class = "jobTitle"> 
+          <p> <b> UW Print & Retail Services,</b> <i> Informations Systems Analyst </i> </p>
+
+        <ul> 
+          <div class = "description"> 
+            <li>  Managed and analyzed development servers to reduce time from loading staging sites by 187% (from 16s to 3s) </li>
+            <li> Created scripts to automate source code in upgrade process 
+            <li> Installed network monitoring tools to analyze resource trends and performance problems </li>
+            <li> Developed system infrastructure using <b> MySQL, Docker, phpmyAdmin, Apache</b>  </li>
+          </div>
+        </div>
+
+          
+        </ul>
+      </div>          
+
 
   </div>
     

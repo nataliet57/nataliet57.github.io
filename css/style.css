@@ -10,7 +10,7 @@ span {
 .nav {
     overflow: hidden;
     padding-right: 150px;
-    padding-left: 150px;
+    padding-left: 300px;
 }
 
   /* Style the links inside the navigation bar */
@@ -38,21 +38,26 @@ span {
 .nav img{
     border-radius: 50%;
     max-width: 5em; 
+    
 }
 
 #about {
   background-color: #c3d7f7;
   overflow: hidden;
   cursor: default;
-	height: 40em;
-	left: 0;
+	height: 20em;
+  left: 0;
+  padding-left: 15%;
+  padding-bottom: 500px;
+
 	
 }
 #about > .title {
   display: inline-block;
   height: inherit;
-  padding-left: 50px;
   padding-top: 44px;
+  padding-bottom: 20px;
+  font-size: 26px;
   line-height: inherit;
   position: absolute;
   color: #6aa1f7;
@@ -60,18 +65,18 @@ span {
 #about > .header2 {
   display: inline-block;
   height: inherit;
-  padding-left: 50px;
-  padding-top: 100px;
+  padding-top: 120px;
   max-width: 30em;
   line-height: 26pt;
   position: absolute;
   color: #152742;
+  
 }
 
 #about > .profile-pic{
   text-align: right;
   padding-top: 100px;
-  padding-right: 100px;
+  padding-right: 15%;
 
 }
 
@@ -95,6 +100,61 @@ a.button {
 a.button:hover{
     background: #263347;
 }
+#work {
+  overflow: hidden;
+  cursor: default;
+	height: 500em;
+  left: 0;
+  top: 50%;
+  left: 50%;
+	
+}
+
+#work > .title{
+  text-align: center;
+  padding-top: 100px;
+  font-size: 26px;
+  font-weight: bolder;
+  color: #152742;
+}
+
+#work > .subtitle{
+  text-align: center;
+  font-weight: normal;
+  padding-top: 10px;
+  font-size: 24px;
+  color: #3d3d3d;
+  padding-bottom: 20px;
+
+}
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+#work > .box{
+  border-radius: 10px;
+  border: 1px solid #7189b0;
+  padding: 30px; 
+  width: 1000px;
+  height: 250px; 
+}
+#work > .box > .jobTitle{
+  font-size: 22px;
+    color: #152742;
+
+}
+
+.padding{
+  padding: 20px;
+}
+
+.description{
+  color: #3d3d3d;
+  font-size: 20px;
+}
+
 
 
 
