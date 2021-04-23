@@ -33,4 +33,8 @@ export const STRING = {
     fe1: `Created 2D design of team’s car livery using Solidworks and collaborated with mechanical, firmware, and electrical team leads to understand any needs and find areas of improvement`,
     fe2: `Reorganized Jira board and coordinated with other engineering leads to ensure smooth flow and execution of tasks.`
   },
+  projects: {
+    smartMirror: ``,
+    researchNet: `A Flask-based webapp built with Plotly libraries that visualizes several layers of a research paper's connections to its references and citations.`,
+  }
 }

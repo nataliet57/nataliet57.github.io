@@ -11,7 +11,6 @@ import { faBalanceScale, faDatabase, faPalette, faProjectDiagram, faSync, faTerm
 
 import Typical from 'react-typical'
 import {
-  faLinux,
   faApple,
   faReact,
   faNodeJs,
@@ -44,6 +43,7 @@ import {
 import { STRING } from './resources/string';
 import InfoCard from './infoCard';
 import Projects from './projects';
+import Footer from './Footer';
 
 const App = () => {
   return(
@@ -161,6 +161,9 @@ const App = () => {
       </header>
         <header id="project" className="alt">
           <Projects></Projects>
+        </header>
+        <header id="contact" className="alt">
+          <Footer></Footer>
         </header>
     </div>
   );

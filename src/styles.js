@@ -1,4 +1,6 @@
 import styled from 'styled-components'
+import "typeface-roboto";
+import './index.css'
 
 export const Landing = styled.div`
   display: grid;
@@ -104,10 +106,29 @@ export const ProjectsIntro = styled.div`
 
 export const ProjectContainer = styled.div`
   display: flex;
+  justify-content: space-between;
+  margin: 10px 350px 75px;
 `
 export const ProjectText = styled.div`
-  height: 100%
+  width: 425px;
 `
 export const ProjectTitle = styled.p`
   font-size: 24px;
+  font-family: 'Roboto Mono';
+`
+export const ProjectSubtitle = styled.p`
+  font-size: 18px;
+  font-family: 'Ubuntu Mono';
+  color: #c9b7a7;
+`
+export const ProjectDescription = styled.p`
+  font-size: 18px;
+`
+export const ProjectImage = styled.img`
+  align-items: right;
+  &:hover {
+    transform: scale(1.01);
+  }
+`
+export const ProjectImageContainer = styled.div`
 `
