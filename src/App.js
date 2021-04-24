@@ -46,6 +46,7 @@ import { STRING } from './resources/string';
 import InfoCard from './infoCard';
 import Projects from './projects';
 import Footer from './Footer';
+import Introduction from './Introduction';
 
 const App = () => {
   return(
@@ -56,30 +57,7 @@ const App = () => {
       <title>Natalie Tam</title>
       <meta charSet="utf-8" />
       <link rel="stylesheet" href="css/style.css"/>
-      <Landing>
-        <NavContainer>
-          <Navbar>
-            <LogoButton><img src={logo} alt="Logo" /></LogoButton>
-              <NavItems><a href="#about">about</a></NavItems>
-              <NavItems><a href="#work">work</a></NavItems>
-              <NavItems><a href="#project">projects</a></NavItems>
-              <NavItems><a href="#contact">contact</a></NavItems>
-          </Navbar>
-        </NavContainer>
-        <IntroCardBackground>
-        </IntroCardBackground>
-        <IntroCard>
-          <header id="home" className="alt">
-            <IntroContainer>
-              <IntroTitle>Hey, I'm Natalie 👋</IntroTitle>
-              <TitleDescription> Management Engineering Student at The University of Waterloo </TitleDescription>
-              <p>{STRING.text.intro}</p>
-              <a href={resume} button type="button" className="btn btn-primary">View my Resume</a>
-              <div className="profile-pic"> <img src={profile} alt="Profile Picture" /> </div>
-            </IntroContainer>
-          </header>
-        </IntroCard>
-      </Landing>
+      <Introduction></Introduction>
       <header id="about">
         <TypingText>I'm a {' '}
           <Typical
