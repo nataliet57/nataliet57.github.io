@@ -38,6 +38,8 @@ import {
   WorkExperienceContainer,
   WorkContainer,
   ToolsContainer,
+  IntroTitle,
+  IntroContainer,
 } from './styles'
 
 import { STRING } from './resources/string';
@@ -68,18 +70,13 @@ const App = () => {
         </IntroCardBackground>
         <IntroCard>
           <header id="home" className="alt">
-            <div className="title">
-              <h1>
-                <b>Hey, I'm Natalie </b>
-                <span>👋</span>
-              </h1>
-            </div>
-            <div className="header2">
+            <IntroContainer>
+              <IntroTitle>Hey, I'm Natalie 👋</IntroTitle>
               <TitleDescription> Management Engineering Student at The University of Waterloo </TitleDescription>
               <p>{STRING.text.intro}</p>
               <a href={resume} button type="button" className="btn btn-primary">View my Resume</a>
-            </div>
-            <div className="profile-pic"> <img src={profile} alt="Profile Picture" /> </div>
+              <div className="profile-pic"> <img src={profile} alt="Profile Picture" /> </div>
+            </IntroContainer>
           </header>
         </IntroCard>
       </Landing>
@@ -109,7 +106,6 @@ const App = () => {
       <header id="work" className="alt">
         <div className="title"><h1> work experience </h1> </div>
         <div className="subtitle"><p> Seeking Fall 2021 Internships</p></div>
-        <div className ="center">
           <WorkContainer>
             <WorkExperienceContainer>
               <b> Killi,</b>
@@ -157,7 +153,6 @@ const App = () => {
               </ToolsContainer>
             </WorkExperienceContainer>
           </WorkContainer>
-        </div>
       </header>
         <header id="project" className="alt">
           <Projects></Projects>

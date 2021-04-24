@@ -18,6 +18,15 @@ export const IntroCard = styled.div`
   padding: 0px 75px;
   position: relative;
 `
+export const IntroTitle = styled.p`
+  font-family: Inconsolata;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+`
+export const IntroContainer = styled.div`
+  width: 600px;
+`
 export const NavContainer = styled.div`
   padding: 70px 0px 40px;
 `
@@ -61,6 +70,7 @@ export const AboutPictureContaner = styled.div`
 `
 export const WorkContainer = styled.div`
   align-items: center;
+  padding: 0 300px;
 `
 export const Icon = styled.img`
   width: 100px;
@@ -74,7 +84,6 @@ export const WorkExperienceContainer = styled.div`
   box-shadow: 5px 10px 20px #d4d4d4;
   border: 1px solid #7189b0;
   padding: 30px;
-  width: 1000px;
   align-items: center;
   margin-bottom: 50px;
   background: white;
@@ -126,9 +135,7 @@ export const ProjectDescription = styled.p`
 `
 export const ProjectImage = styled.img`
   align-items: right;
-  &:hover {
-    transform: scale(1.01);
-  }
+  transition: all 0.20s ease-in-out;
 `
 export const ProjectImageContainer = styled.div`
 `
