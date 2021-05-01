@@ -1,23 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.aa06892e.chunk.css",
-    "main.js": "/static/js/main.504831f3.chunk.js",
-    "main.js.map": "/static/js/main.504831f3.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.f474f5f3.js",
-    "runtime-main.js.map": "/static/js/runtime-main.f474f5f3.js.map",
-    "static/js/2.786b4243.chunk.js": "/static/js/2.786b4243.chunk.js",
-    "static/js/2.786b4243.chunk.js.map": "/static/js/2.786b4243.chunk.js.map",
-    "static/js/3.904de9db.chunk.js": "/static/js/3.904de9db.chunk.js",
-    "static/js/3.904de9db.chunk.js.map": "/static/js/3.904de9db.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.aa06892e.chunk.css.map": "/static/css/main.aa06892e.chunk.css.map",
-    "static/js/2.786b4243.chunk.js.LICENSE.txt": "/static/js/2.786b4243.chunk.js.LICENSE.txt",
-    "static/media/profile.6576ac33.jpg": "/static/media/profile.6576ac33.jpg"
+    "main.css": "/nataliet57.github.io/static/css/main.f49f0768.chunk.css",
+    "main.js": "/nataliet57.github.io/static/js/main.7dbb1e2f.chunk.js",
+    "main.js.map": "/nataliet57.github.io/static/js/main.7dbb1e2f.chunk.js.map",
+    "runtime-main.js": "/nataliet57.github.io/static/js/runtime-main.bfd2a6c7.js",
+    "runtime-main.js.map": "/nataliet57.github.io/static/js/runtime-main.bfd2a6c7.js.map",
+    "static/css/2.3002730a.chunk.css": "/nataliet57.github.io/static/css/2.3002730a.chunk.css",
+    "static/js/2.7aafe7a7.chunk.js": "/nataliet57.github.io/static/js/2.7aafe7a7.chunk.js",
+    "static/js/2.7aafe7a7.chunk.js.map": "/nataliet57.github.io/static/js/2.7aafe7a7.chunk.js.map",
+    "index.html": "/nataliet57.github.io/index.html",
+    "static/css/2.3002730a.chunk.css.map": "/nataliet57.github.io/static/css/2.3002730a.chunk.css.map",
+    "static/css/main.f49f0768.chunk.css.map": "/nataliet57.github.io/static/css/main.f49f0768.chunk.css.map",
+    "static/js/2.7aafe7a7.chunk.js.LICENSE.txt": "/nataliet57.github.io/static/js/2.7aafe7a7.chunk.js.LICENSE.txt",
+    "static/media/doggo.51e153c6.png": "/nataliet57.github.io/static/media/doggo.51e153c6.png",
+    "static/media/hackathon.f7e74c22.png": "/nataliet57.github.io/static/media/hackathon.f7e74c22.png",
+    "static/media/laptop-image.a7cb2c71.png": "/nataliet57.github.io/static/media/laptop-image.a7cb2c71.png",
+    "static/media/profile.6576ac33.jpg": "/nataliet57.github.io/static/media/profile.6576ac33.jpg",
+    "static/media/researchnet.6a1f489c.png": "/nataliet57.github.io/static/media/researchnet.6a1f489c.png",
+    "static/media/index.css": "/nataliet57.github.io/static/media/roboto-latin-900italic.cb5ad999.woff2",
+    "static/media/snowboard.c3cf49ce.png": "/nataliet57.github.io/static/media/snowboard.c3cf49ce.png",
+    "static/media/sunset.f7ff1ac3.png": "/nataliet57.github.io/static/media/sunset.f7ff1ac3.png",
+    "static/media/wooden-mirror.6ff20a32.png": "/nataliet57.github.io/static/media/wooden-mirror.6ff20a32.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.f474f5f3.js",
-    "static/js/2.786b4243.chunk.js",
-    "static/css/main.aa06892e.chunk.css",
-    "static/js/main.504831f3.chunk.js"
+    "static/js/runtime-main.bfd2a6c7.js",
+    "static/css/2.3002730a.chunk.css",
+    "static/js/2.7aafe7a7.chunk.js",
+    "static/css/main.f49f0768.chunk.css",
+    "static/js/main.7dbb1e2f.chunk.js"
   ]
 }
