@@ -5,7 +5,8 @@ import snowboard from './images/snowboard.png';
 import hackathon from './images/hackathon.png';
 import sunset from './images/sunset.png';
 import doggo from './images/doggo.png';
-import resume from './natalie-tam-resume.pdf'
+import './Navbar.css';
+
 
 import { faBalanceScale, faDatabase, faPalette, faProjectDiagram, faSync, faTerminal, faUsers } from '@fortawesome/free-solid-svg-icons';
 
@@ -24,13 +25,6 @@ import './App.css';
 
 import {
   Landing,
-  NavContainer,
-  NavItems,
-  IntroCard,
-  IntroCardBackground,
-  TitleDescription,
-  Navbar,
-  LogoButton,
   TypingText,
   AboutText,
   AboutPictureContaner,
@@ -57,7 +51,9 @@ const App = () => {
       <title>Natalie Tam</title>
       <meta charSet="utf-8" />
       <link rel="stylesheet" href="css/style.css"/>
-      <Introduction></Introduction>
+      <Landing>
+        <Introduction></Introduction>
+      </Landing>
       <header id="about">
         <TypingText>I'm a {' '}
           <Typical
@@ -67,6 +63,8 @@ const App = () => {
               'designer 💅🏻',
               1000,
               'guitarist 🎸',
+              1000,
+              'nature lover 🌱',
               1000,
             ]}
           />

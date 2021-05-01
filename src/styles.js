@@ -4,20 +4,9 @@ import './index.css'
 
 export const Landing = styled.div`
   display: grid;
-  padding: 0px 300px 170px;
-  background: #FBF2E7;
+  background: #fff;
 `
-export const IntroCardBackground = styled.div`
-  // background: #5A90E7;
-  // width: 840px;
-  // height: 500px;
-  // padding: 0px 75px;
-  // position: absolute;
-`
-export const IntroCard = styled.div`
-  padding: 0px 75px;
-  position: relative;
-`
+
 export const IntroTitle = styled.p`
   font-family: Inconsolata;
   font-style: normal;
@@ -128,7 +117,7 @@ export const ProjectTitle = styled.p`
 export const ProjectSubtitle = styled.p`
   font-size: 18px;
   font-family: 'Ubuntu Mono';
-  color: #c9b7a7;
+  color: #1D4688;
 `
 export const ProjectDescription = styled.p`
   font-size: 18px;

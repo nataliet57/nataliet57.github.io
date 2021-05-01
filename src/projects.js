@@ -30,9 +30,9 @@ const Projects = () => {
           <ProjectSubtitle>PERSONAL SIDE PROJECT: WEB APP DESIGN</ProjectSubtitle>
           <ProjectDescription>Designed and built my own search engine service like Google</ProjectDescription>
           <ToolsContainer>
-            <InfoCard color="#c9b7a7" icon={faJsSquare} name="Javascript" />
-            <InfoCard color="#c9b7a7" icon={faDatabase} name="MySQL" />
-            <InfoCard color="#c9b7a7" icon={faPhp} name="PHP" />
+            <InfoCard color="#C3D7F7" icon={faJsSquare} name="Javascript" />
+            <InfoCard color="#C3D7F7" icon={faDatabase} name="MySQL" />
+            <InfoCard color="#C3D7F7" icon={faPhp} name="PHP" />
           </ToolsContainer>
         </ProjectText>
         <ProjectImage img src={googleLaptop} />
@@ -43,10 +43,10 @@ const Projects = () => {
           <ProjectSubtitle>PERSONAL SIDE PROJECT: HARDWARE DESIGN</ProjectSubtitle>
           <ProjectDescription>Built a smart mirror powered by a Raspberry Pi! I got to do some interesting wood working and painting</ProjectDescription>
           <ToolsContainer>
-            <InfoCard color="#c9b7a7" icon={faJsSquare} name="Javascript" />
-            <InfoCard color="#c9b7a7" icon={faRaspberryPi} name="Raspberry Pi" />
-            <InfoCard color="#c9b7a7" icon={faJava} name="Java" />
-            <InfoCard color="#c9b7a7" icon={faPaintBrush} name="Design" />
+            <InfoCard color="#C3D7F7" icon={faJsSquare} name="Javascript" />
+            <InfoCard color="#C3D7F7" icon={faRaspberryPi} name="Raspberry Pi" />
+            <InfoCard color="#C3D7F7" icon={faJava} name="Java" />
+            <InfoCard color="#C3D7F7" icon={faPaintBrush} name="Design" />
           </ToolsContainer>
         </ProjectText>
         <ProjectImage img src={woodenMirror} />
@@ -57,10 +57,10 @@ const Projects = () => {
           <ProjectSubtitle>HACKATHON PROJECT</ProjectSubtitle>
           <ProjectDescription>{STRING.projects.researchNet}</ProjectDescription>
           <ToolsContainer>
-            <InfoCard color="#c9b7a7" icon={faPython} name="Python" />
-            <InfoCard color="#c9b7a7" icon={faProjectDiagram} name="Plotly" />
-            <InfoCard color="#c9b7a7" icon={faJsSquare} name="Javascript" />
-            <InfoCard color="#c9b7a7" icon={faUsers} name="Teamwork" />
+            <InfoCard color="#C3D7F7" icon={faPython} name="Python" />
+            <InfoCard color="#C3D7F7" icon={faProjectDiagram} name="Plotly" />
+            <InfoCard color="#C3D7F7" icon={faJsSquare} name="Javascript" />
+            <InfoCard color="#C3D7F7" icon={faUsers} name="Teamwork" />
           </ToolsContainer>
         </ProjectText>
         <ProjectImageContainer>

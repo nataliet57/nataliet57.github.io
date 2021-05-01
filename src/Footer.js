@@ -16,7 +16,7 @@ const CopyRightText = styled.p`
 `;
 
 const FooterContainer = styled.div`
-  background: #CABAAC;
+  background: #C3D7F7;
   text-align: center;
   padding: 125px 600px 33px;
 `
