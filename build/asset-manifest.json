@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.f49f0768.chunk.css",
-    "main.js": "/static/js/main.7dbb1e2f.chunk.js",
-    "main.js.map": "/static/js/main.7dbb1e2f.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.474f2ad8.js",
-    "runtime-main.js.map": "/static/js/runtime-main.474f2ad8.js.map",
+    "main.css": "/static/css/main.a101de87.chunk.css",
+    "main.js": "/static/js/main.896a5bf8.chunk.js",
+    "main.js.map": "/static/js/main.896a5bf8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9c181eb9.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9c181eb9.js.map",
     "static/css/2.1ca50200.chunk.css": "/static/css/2.1ca50200.chunk.css",
-    "static/js/2.d5f479d6.chunk.js": "/static/js/2.d5f479d6.chunk.js",
-    "static/js/2.d5f479d6.chunk.js.map": "/static/js/2.d5f479d6.chunk.js.map",
+    "static/js/2.1e467e6d.chunk.js": "/static/js/2.1e467e6d.chunk.js",
+    "static/js/2.1e467e6d.chunk.js.map": "/static/js/2.1e467e6d.chunk.js.map",
+    "static/js/3.31259785.chunk.js": "/static/js/3.31259785.chunk.js",
+    "static/js/3.31259785.chunk.js.map": "/static/js/3.31259785.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.1ca50200.chunk.css.map": "/static/css/2.1ca50200.chunk.css.map",
-    "static/css/main.f49f0768.chunk.css.map": "/static/css/main.f49f0768.chunk.css.map",
-    "static/js/2.d5f479d6.chunk.js.LICENSE.txt": "/static/js/2.d5f479d6.chunk.js.LICENSE.txt",
+    "static/css/main.a101de87.chunk.css.map": "/static/css/main.a101de87.chunk.css.map",
+    "static/js/2.1e467e6d.chunk.js.LICENSE.txt": "/static/js/2.1e467e6d.chunk.js.LICENSE.txt",
     "static/media/doggo.51e153c6.png": "/static/media/doggo.51e153c6.png",
     "static/media/hackathon.f7e74c22.png": "/static/media/hackathon.f7e74c22.png",
     "static/media/laptop-image.a7cb2c71.png": "/static/media/laptop-image.a7cb2c71.png",
-    "static/media/profile.6576ac33.jpg": "/static/media/profile.6576ac33.jpg",
     "static/media/researchnet.6a1f489c.png": "/static/media/researchnet.6a1f489c.png",
     "static/media/index.css": "/static/media/roboto-latin-900italic.cb5ad999.woff2",
     "static/media/snowboard.c3cf49ce.png": "/static/media/snowboard.c3cf49ce.png",
@@ -23,10 +24,10 @@
     "static/media/wooden-mirror.6ff20a32.png": "/static/media/wooden-mirror.6ff20a32.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.474f2ad8.js",
+    "static/js/runtime-main.9c181eb9.js",
     "static/css/2.1ca50200.chunk.css",
-    "static/js/2.d5f479d6.chunk.js",
-    "static/css/main.f49f0768.chunk.css",
-    "static/js/main.7dbb1e2f.chunk.js"
+    "static/js/2.1e467e6d.chunk.js",
+    "static/css/main.a101de87.chunk.css",
+    "static/js/main.896a5bf8.chunk.js"
   ]
 }

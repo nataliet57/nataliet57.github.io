@@ -1,11 +1,8 @@
 import React from 'react';
-import logo from './images/logo.png';
-import profile from './images/profile.jpg';
 import snowboard from './images/snowboard.png';
 import hackathon from './images/hackathon.png';
 import sunset from './images/sunset.png';
 import doggo from './images/doggo.png';
-import './Navbar.css';
 
 
 import { faBalanceScale, faDatabase, faPalette, faProjectDiagram, faSync, faTerminal, faUsers } from '@fortawesome/free-solid-svg-icons';
@@ -32,8 +29,6 @@ import {
   WorkExperienceContainer,
   WorkContainer,
   ToolsContainer,
-  IntroTitle,
-  IntroContainer,
 } from './styles'
 
 import { STRING } from './resources/string';
