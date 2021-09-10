@@ -34,7 +34,7 @@ export default class InfoCard extends React.Component {
       <div>
           <Row>
             <Tools color={color}>
-              <Icons icon={icon} size="sm" />
+              <Icons icon={icon} />
               <ToolsText>{name}</ToolsText>
             </Tools>
           </Row>

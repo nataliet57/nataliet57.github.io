@@ -1,11 +1,17 @@
 import styled from 'styled-components'
 import "typeface-roboto";
-import './index.css'
+import './index.css';
+
+import { BREAKPOINTS } from './resources/constants';
+
 
 export const Landing = styled.div`
   display: grid;
   background: #fff;
 `
+export const Wrapper = styled.div`
+  padding-top: 10%;
+`;
 
 export const IntroTitle = styled.p`
   font-family: Inconsolata;
@@ -103,9 +109,8 @@ export const ProjectsIntro = styled.div`
 `
 
 export const ProjectContainer = styled.div`
-  display: flex;
-  justify-content: space-between;
-  margin: 10px 350px 75px;
+  margin: 10px;
+
 `
 export const ProjectText = styled.div`
   width: 425px;
@@ -122,9 +127,8 @@ export const ProjectSubtitle = styled.p`
 export const ProjectDescription = styled.p`
   font-size: 18px;
 `
-export const ProjectImage = styled.img`
-  align-items: right;
-  transition: all 0.20s ease-in-out;
+export const ProjectImage = styled.div`
+
 `
 export const ProjectImageContainer = styled.div`
 `

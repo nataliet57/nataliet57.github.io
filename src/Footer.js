@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { OverlayTrigger, Tooltip } from 'react-bootstrap';
 import styled from 'styled-components';
+import { Container, Row } from "react-bootstrap";
 
 
 const Icons = styled(FontAwesomeIcon)`
@@ -18,7 +19,8 @@ const CopyRightText = styled.p`
 const FooterContainer = styled.div`
   background: #C3D7F7;
   text-align: center;
-  padding: 125px 600px 33px;
+  padding: 125px 0 33px;
+
 `
 const FooterLinks = styled.div`
   text-align: center;
@@ -38,42 +40,49 @@ const FooterText = styled.p`
   font-size: 30px;
   line-height: 49px;
 `
+
+const FooterBreak = styled.div`
+  padding: 50px 0;
+`
 const Footer = () => {
   return (
     <div>
+      <FooterBreak></FooterBreak>
       <FooterContainer>
-        <FooterTitle>This doesn't have to end yet — Let's Connect!</FooterTitle>
-        <FooterText>Email me at n6tam@uwaterloo.ca 💌 <br />Let’s talk about anything.</FooterText>
-        <FooterLinks>
-          <OverlayTrigger
-            placement="bottom"
-            delay={{ show: 250, hide: 400 }}
-            overlay={<Tooltip id={`tooltip-top`}>Github</Tooltip>}
-          >
-            <a href="https://devpost.com/software/htg-researchnet/">
-              <Icons icon={faGithub} size="lg" />
-            </a>
-          </OverlayTrigger>
-          <OverlayTrigger
-            placement="bottom"
-            delay={{ show: 250, hide: 400 }}
-            overlay={<Tooltip id={`tooltip-top`}>LinkedIn</Tooltip>}
-          >
-            <a href="https://www.linkedin.com/in/natalie-tam/">
-              <Icons icon={faLinkedin} size="lg" />
-            </a>
-          </OverlayTrigger>
-          <OverlayTrigger
-            placement="bottom"
-            delay={{ show: 250, hide: 400 }}
-            overlay={<Tooltip id={`tooltip-top`}>Email</Tooltip>}
-          >
-            <a href="mailto:n6tam@uwaterloo.ca" target="_blank">
-              <Icons icon={faEnvelope} size="lg" />
-            </a>
-          </OverlayTrigger>
-        </FooterLinks>
-      </FooterContainer>
+        <Container>
+          <FooterTitle>This doesn't have to end yet — Let's Connect!</FooterTitle>
+          <FooterText>Email me at n6tam@uwaterloo.ca 💌 <br />Let’s talk about anything.</FooterText>
+          <FooterLinks>
+            <OverlayTrigger
+              placement="bottom"
+              delay={{ show: 250, hide: 400 }}
+              overlay={<Tooltip id={`tooltip-top`}>Github</Tooltip>}
+            >
+              <a href="https://github.com/nataliet57">
+                <Icons icon={faGithub} size="lg" />
+              </a>
+            </OverlayTrigger>
+            <OverlayTrigger
+              placement="bottom"
+              delay={{ show: 250, hide: 400 }}
+              overlay={<Tooltip id={`tooltip-top`}>LinkedIn</Tooltip>}
+            >
+              <a href="https://www.linkedin.com/in/natalie-tam/">
+                <Icons icon={faLinkedin} size="lg" />
+              </a>
+            </OverlayTrigger>
+            <OverlayTrigger
+              placement="bottom"
+              delay={{ show: 250, hide: 400 }}
+              overlay={<Tooltip id={`tooltip-top`}>Email</Tooltip>}
+            >
+              <a href="mailto:n6tam@uwaterloo.ca" target="_blank">
+                <Icons icon={faEnvelope} size="lg" />
+              </a>
+            </OverlayTrigger>
+          </FooterLinks>
+          </Container>
+        </FooterContainer>
     </div>
   )
 }

@@ -1,2 +1,6 @@
-export { default as logo } from './logo.png';
-export { default as profile } from './profile-pic.png';
+export const BREAKPOINTS = {
+  sm: '576px',
+  md: '768px',
+  lg: '992px',
+  xl: '1200px',
+}
