@@ -3,8 +3,7 @@ import snowboard from './images/snowboard.png';
 import hackathon from './images/hackathon.png';
 import sunset from './images/sunset.png';
 import doggo from './images/doggo.png';
-
-import { Col, Container, Row } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 
 import { faBalanceScale, faDatabase, faPalette, faProjectDiagram, faSync, faTerminal, faUsers } from '@fortawesome/free-solid-svg-icons';
 

@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import logo from './images/logo.png';
 import "./styles.css";
+import Slide from 'react-reveal/Slide';
 import ResponsiveMenu from "react-responsive-navbar";
 import { Close } from "@styled-icons/ionicons-outline/Close";
 import { Menu } from "@styled-icons/boxicons-regular/Menu";
@@ -111,12 +112,15 @@ const Introduction = () => {
       </div>
     </header>
     <Container>
-        <IntroCard>
-          <Title>Hey, I’m Natalie 👋 <br /></Title><br />
-          <Description>Currently looking for Summer 2022 Internship Opportunities.</Description>
-          <DescriptionText>I'm currently a third year student in Management Engineering with  passionate about creating technological solutions that impact our community. I've worked with front and backend development and I would like to learn more about product management. I enjoy learning new things, listening to music, playing sports, and meeting new people. I'd love to get in touch with you! </DescriptionText>
-          <p>。.・゜✭・.・✫・゜・。.・。.・゜✭・.・✫・。.・゜✭・.・✫・゜・。✭</p>
-        </IntroCard>
+        <Slide left>
+          <IntroCard>
+            <Title>Hey, I’m Natalie 👋 <br /></Title><br />
+            <Description>Currently looking for Summer 2022 Internship Opportunities.</Description>
+            <DescriptionText>I'm currently a third year student in Management Engineering with  passionate about creating technological solutions that impact our community. I've worked with front and backend development and I would like to learn more about product management. I enjoy learning new things, listening to music, playing sports, and meeting new people. I'd love to get in touch with you! </DescriptionText>
+            <p>。.・゜✭・.・✫・゜・。.・。.・゜✭・.・✫・。.・゜✭・.・✫・゜・。✭</p>
+          </IntroCard>
+        </Slide>
+
       </Container>
     </div>
   )
