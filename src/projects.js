@@ -75,12 +75,14 @@ const Projects = () => {
               <ProjectTitle>ResearchNet</ProjectTitle>
               <ProjectSubtitle>HACKATHON PROJECT</ProjectSubtitle>
               <ProjectDescription>{STRING.projects.researchNet}</ProjectDescription>
-              <ToolsContainer>
-                <InfoCard color="#C3D7F7" icon={faPython} name="Python" />
-                <InfoCard color="#C3D7F7" icon={faProjectDiagram} name="Plotly" />
-                <InfoCard color="#C3D7F7" icon={faJsSquare} name="Javascript" />
-                <InfoCard color="#C3D7F7" icon={faUsers} name="Teamwork" />
-              </ToolsContainer>
+              <Row>
+                <ToolsContainer>
+                  <InfoCard color="#C3D7F7" icon={faPython} name="Python" />
+                  <InfoCard color="#C3D7F7" icon={faProjectDiagram} name="Plotly" />
+                  <InfoCard color="#C3D7F7" icon={faJsSquare} name="Javascript" />
+                  <InfoCard color="#C3D7F7" icon={faUsers} name="Teamwork" />
+                </ToolsContainer>
+              </Row>
             </ProjectText>
           </ProjectContainer>
           <ProjectImage>

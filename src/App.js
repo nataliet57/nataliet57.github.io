@@ -134,11 +134,13 @@ const App = () => {
               <li>{STRING.work.fe1}</li>
               <li>{STRING.work.fe2}</li>
             </ul>
-            <ToolsContainer>
-              <InfoCard color="#7189b0" icon={faJira} name="Jira" />
-              <InfoCard color="#7189b0" icon={faProjectDiagram} name="Project Management" />
-              <InfoCard color="#7189b0" icon={faUsers} name="Teamwork" />
-            </ToolsContainer>
+            <Row>
+              <ToolsContainer>
+                <InfoCard color="#7189b0" icon={faJira} name="Jira" />
+                <InfoCard color="#7189b0" icon={faProjectDiagram} name="Project Management" />
+                <InfoCard color="#7189b0" icon={faUsers} name="Teamwork" />
+              </ToolsContainer>
+            </Row>
           </WorkExperienceContainer>
         </Container>
     </header>
