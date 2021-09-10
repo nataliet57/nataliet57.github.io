@@ -116,7 +116,7 @@ const Introduction = () => {
           <IntroCard>
             <Title>Hey, I’m Natalie 👋 <br /></Title><br />
             <Description>Currently looking for Summer 2022 Internship Opportunities.</Description>
-            <DescriptionText>I'm currently a third year student in Management Engineering with  passionate about creating technological solutions that impact our community. I've worked with front and backend development and I would like to learn more about product management. I enjoy learning new things, listening to music, playing sports, and meeting new people. I'd love to get in touch with you! </DescriptionText>
+            <DescriptionText>I'm currently a third year student in Management Engineering passionate about creating technological solutions that impact our community. I've worked with front and backend development and I would like to learn more about product management. I enjoy learning new things, listening to music, playing sports, and meeting new people. I'd love to get in touch with you! </DescriptionText>
             <p>。.・゜✭・.・✫・゜・。.・。.・゜✭・.・✫・。.・゜✭・.・✫・゜・。✭</p>
           </IntroCard>
         </Slide>
